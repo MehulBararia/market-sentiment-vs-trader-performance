@@ -1,0 +1,40 @@
+Project Dependencies
+====================
+
+Python version:
+- Python 3.11 or newer is recommended.
+
+Install command:
+pip install -r requirements.txt
+
+Required packages:
+
+Core data science:
+- pandas==2.2.2
+- numpy==1.26.4
+
+Visualization:
+- matplotlib==3.9.0
+- seaborn==0.13.2
+- plotly==5.22.0
+
+Statistics and machine learning:
+- scipy==1.13.1
+- statsmodels==0.14.2
+- scikit-learn==1.5.0
+
+Notebook support:
+- jupyter==1.0.0
+- ipykernel==6.29.4
+
+Utilities:
+- python-dotenv==1.0.1
+- tqdm==4.66.4
+- tabulate==0.9.0
+
+Why tabulate is needed:
+- pandas uses tabulate when exporting DataFrames to Markdown tables.
+- The final report generator uses Markdown tables, so tabulate is required.
+
+Dependency source:
+- The authoritative dependency list is requirements.txt.
